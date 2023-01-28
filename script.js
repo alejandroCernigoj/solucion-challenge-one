@@ -37,7 +37,7 @@ function btnEncriptar(){
 
 function encriptar(stringEncriptada){
     let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
-    stringEncriptada = stringEncriptada.tolowerCase()
+    stringEncriptada = stringEncriptada.toLowerCase()
 
     for(let i = 0; i < matrizCodigo.length; i++){
         if(stringEncriptada.includes(matrizCodigo[i][0])){
